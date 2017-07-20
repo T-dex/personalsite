@@ -1,7 +1,10 @@
 @font-face{
-  font-family: Tattoos;
-  src:url("/fonts/FreehandTattooOne.ttf");
+  font-family: penscript;
+  src:url('./fonts/scriptstyle.ttf');
+  font-family: Tattoo;
+  src:url("./fonts/FreehandTattooOne.ttf");
 }
+
 
 *{
   color:white;
@@ -14,7 +17,7 @@ body {
 }
 ///HEADERITEMS
 .app-header{
-  font-family: Tattoos;
+  font-family: penscript Tattoo;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -24,6 +27,94 @@ body {
 
 
   .Logo{
-    font-family:Tattoo;
+    font-family:penscript;
   }
+}
+
+.app-footer{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start space-between;
+  height:155px;
+  background-color: black;
+  width: 100%;
+  color:white;
+  align-content: stretch;
+  font-weight: bolder;
+
+  .footer{
+    margin-right: 5px;
+    a:link
+    {
+      text-decoration: none;
+    }
+    a:hover{
+      color: lightslategrey;
+      cursor: crosshair;
+    }
+
+    justify-content: flex-start;
+    color: inherit;
+  }
+}
+
+
+.Hero{
+  position:absolute;
+  font-family:Tattoo;
+  background:url('images/herobanner.jpg') no-repeat center center fixed;
+  background-size:cover;
+  width:100%;
+  height:580px;
+  margin:1px;
+
+  h2{
+   text-align: center;
+   padding-top: 260px;
+   padding-bottom:260px;
+   margin: 50px;
+  }
+}
+
+.Hero2{
+  position:absolute;
+  font-family:Tattoo;
+  background:url('images/herobanner2.jpg') no-repeat center center fixed;
+  background-size:cover;
+  margin-top:750px;
+  width:100%;
+  height:300px;
+
+
+  h2{
+   text-align: center;
+   padding-top: 200px;
+   padding-bottom:250px;
+   margin: 50px;
+   margin-bottom: 0;
+  }
+}
+
+.bio{
+  display: flex;
+  align-self: flex-start;
+  justify-content: center;
+  position: absolute;
+  background: none center center fixed;
+  margin-top:600px;
+  margin-bottom:25px;
+  width: 100%;
+  height: auto;
+  color: white;
+
+  .bioflex{
+    display: flex;
+    justify-content:center;
+    h1{
+    display: flex;
+    justify-content: center;
+
+  }
+  }
+}
 }
