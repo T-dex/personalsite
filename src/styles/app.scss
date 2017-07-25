@@ -12,7 +12,7 @@ body {
   font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: red;
+  background-color: #996515;
 }
 ///HEADERITEMS
 .app-header{
@@ -31,6 +31,8 @@ body {
 
     h1{
     font-family: Fancy;
+    color: black;
+    text-shadow:  -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px #996515;
     }
   }
 }
@@ -80,7 +82,8 @@ body {
      padding-top: 260px;
      padding-bottom:260px;
      margin: 50px;
-     color: grey;
+     color: black;
+     text-shadow:  -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px #996515;
     }
 }
 
@@ -100,7 +103,8 @@ body {
      padding-bottom:250px;
      margin: 50px;
      margin-bottom: 0;
-     color: grey;
+     color: black;
+     text-shadow:  -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px #996515;
     }
 }
 
@@ -120,8 +124,11 @@ body {
     display: flex;
     justify-content:center;
     h1{
+    font-family: Fancy;
     display: flex;
     justify-content: center;
+    color: #996515;
+    text-shadow:  -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 
   }
   }

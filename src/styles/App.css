@@ -9,7 +9,7 @@ body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: red; }
+  background-color: #996515; }
 
 .app-header {
   font-family: Fancy;
@@ -23,7 +23,9 @@ body {
   .app-header .Logo {
     font-family: Fancy; }
     .app-header .Logo h1 {
-      font-family: Fancy; }
+      font-family: Fancy;
+      color: black;
+      text-shadow: -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px #996515; }
 
 .app-footer {
   display: flex;
@@ -59,7 +61,8 @@ body {
     padding-top: 260px;
     padding-bottom: 260px;
     margin: 50px;
-    color: grey; }
+    color: black;
+    text-shadow: -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px #996515; }
 
 .Hero2 {
   position: absolute;
@@ -75,7 +78,8 @@ body {
     padding-bottom: 250px;
     margin: 50px;
     margin-bottom: 0;
-    color: grey; }
+    color: black;
+    text-shadow: -1px 0 #996515, 0 1px #996515, 1px 0 #996515, 0 -1px #996515; }
 
 .bio {
   display: flex;
@@ -92,7 +96,10 @@ body {
     display: flex;
     justify-content: center; }
     .bio .bioflex h1 {
+      font-family: Fancy;
       display: flex;
-      justify-content: center; }
+      justify-content: center;
+      color: #996515;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
 
 /*# sourceMappingURL=app.css.map */
